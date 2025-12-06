@@ -1,0 +1,7 @@
+aws_region            = "us-east-1"
+aws_access_key_id     = null    # uses local ~/.aws/credentials
+aws_secret_access_key = null    # uses local ~/.aws/credentials
+aws_session_token     = null     optional if using STS
+
+ Info (not used by TF but noted for you)
+ Admin ARN: arn:aws:iam::698135531490:user/olumide-admin
