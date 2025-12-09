@@ -54,7 +54,7 @@ Day	Topic	Status
 
 # 📂 Clickable Daily Labs
 
-✅ Day 01 — IAM Foundations
+### ✅ [Day 01 — IAM Foundations & Threat Model](./Day01)  
 
 Identity vs Authentication vs Authorization
 
@@ -63,7 +63,7 @@ RBAC vs ABAC
 Threat Modeling for IAM
 📁 (Docs only — no Terraform)
 
-✅ Day 02 — AWS IAM with Terraform
+### ✅ [Day 02 — AWS IAM with Terraform](./Day02)
 
 📁 Open Day 02
 
@@ -72,7 +72,7 @@ Threat Modeling for IAM
 ✔ IAM trust policies
 ✔ Terraform IAM lifecycle
 
-✅ Day 03 — Azure Entra ID with Terraform
+### ✅ [Day 03 — Azure Entra ID with Terraform](./Day03)
 
 📁 Open Day 03
 
@@ -81,7 +81,7 @@ Threat Modeling for IAM
 ✔ Service principals
 ✔ RBAC with Terraform
 
-✅ Day 04 — GCP IAM with Terraform
+### ✅ [Day 04 — GCP IAM with Terraform](./Day04)
 
 📁 Open Day 04
 
@@ -90,7 +90,7 @@ Threat Modeling for IAM
 ✔ IAM bindings
 ✔ Least privilege automation
 
-✅ Day 05 — AWS ↔ Azure Federation (SSO)
+### ✅ [Day 05 — AWS ↔ Azure SAML Federation](./Day05)
 
 📁 Open Day 05
 
@@ -100,7 +100,7 @@ Threat Modeling for IAM
 ✔ Permission Sets
 ✔ Single Login → All Clouds
 
-✅ Day 06 — Terraform Remote State & Backends
+### ✅ [Day 06 — Terraform Remote State & Backends](./Day06)
 
 📁 Open Day 06
 
@@ -108,7 +108,7 @@ Threat Modeling for IAM
 ✔ DynamoDB locking
 ✔ Team-safe Terraform
 
-✅ Day 07 — Docker + IAM Security
+### ✅ [Day 07 — Docker + IAM Security](./Day07)
 
 📁 Open Day 07
 
@@ -117,7 +117,7 @@ Threat Modeling for IAM
 ✔ Runtime identity
 ✔ Docker + Terraform integration
 
-✅ Day 08 — Workload Identity Federation
+### ✅ [Day 08 — Workload Identity Federation](./Day08)
 
 📁 Open Day 08
 
@@ -126,7 +126,7 @@ Threat Modeling for IAM
 ✔ GCP Workload Identity
 ✔ Pod → Cloud Access
 
-✅ Day 09 — Zero Trust Multi-Cloud Identity
+### ✅ [Day 09 — Zero Trust Multi-Cloud Identity](./Day09)
 
 📁 Open Day 09
 
@@ -135,7 +135,7 @@ Threat Modeling for IAM
 ✔ MFA everywhere
 ✔ Just-in-time access
 
-✅ Day 10 — Capstone Architecture
+### ✅ [Day 10 — Capstone Multi-Cloud IAM Architecture](./Day10)
 
 📁 Open Day 10
 
