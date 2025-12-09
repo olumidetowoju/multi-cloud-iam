@@ -40,7 +40,7 @@ Day	Topic	Status
 
 ✅ Day 04	GCP IAM with Terraform	✅
 
-✅ Day 05	AWS ↔ Azure SAML Federation	🚧
+✅ Day 05	AWS ↔ Azure SAML Federation
 
 ✅ Day 06	Terraform Remote State & Backends	✅
 
