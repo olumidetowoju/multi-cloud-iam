@@ -60,12 +60,9 @@ main.tf
 variables.tf
 outputs.tf
 
-pgsql
-Copy code
 
 ### `main.tf`
 
-```hcl
 provider "aws" {
   region = "us-east-1"
 }
@@ -137,13 +134,15 @@ resource "aws_iam_role_policy_attachment" "least_privilege_attach" {
 }
 
 # 🔥 4. IAM Diagram (Mermaid)
-mermaid
+```mermaid
 flowchart TB
     A[IAM Role: EC2] -->|Trusts| B[EC2 Service]
     A -->|Permissions| C[ReadOnlyAccess Policy]
     A -->|Least Privilege| D[Custom Policy]
     C --> E[AWS Resources]
     D --> E
+```
+
 
 # 🟥 5. IAM Security Best Practices (Enterprise-Level)
 
@@ -165,13 +164,15 @@ Useful for limiting developer-created IAM roles.
 6️⃣ IAM Access Analyzer
 Use to detect dangerous trust relationships.
 
+
 # 🟩 6. End-to-End IAM Flow (Foundation for Multi-Cloud)
-mermaid
+```mermaid
 flowchart LR
     Azure[Azure Entra ID] -->|SAML| AWS(AWS IAM Identity Center)
     AWS --> Role[IAM Role]
     Role --> Policy[IAM Policies]
     Role --> Services[AWS Services]
+```
 
 
 # 🟦 7. Day 02 Summary
@@ -187,6 +188,7 @@ flowchart LR
 ✔ Terraform IAM lifecycle
 
 ✔ Cloud-agnostic IAM understanding
+
 
 **This prepares you for:**
 
