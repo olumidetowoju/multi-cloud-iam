@@ -144,14 +144,28 @@ This table will grow over the next 10 days.
 # 🟩 6. Diagram — IAM Foundations (Multi-Cloud)
 
 ```mermaid
-flowchart LR
-    A[Identity Provider (Azure Entra ID)] -->|SAML/OIDC| B(AWS IAM Identity Center)
-    A -->|OIDC| C(GCP IAM Workforce Identity)
-    B --> D[Permission Sets]
-    C --> E[GCP IAM Roles]
-    A --> F[Azure RBAC Roles]
-🟦 7. Day 01 Summary
-You now understand:
+flowchart TD
+    A[Azure Entra ID Identity Provider] --> B[Amazon Web Services<br/>AWS IAM Identity Center]
+    B --> C[GCP: Google Cloud IAM]
+    C --> D[Okta / Ping Identity]
+    D --> E[Azure RBAC & Policies]
+    E --> F[My Company: IAM Foundation]
+
+    A1[Authentication Flows] --> F
+    A2[Cloud IAM Differences] --> F
+    A3[IAM Threat Modeling] --> F
+    A4[Identity Architecture Principles] --> F
+
+    F --> G1[Day 08: AWS IAM Terraform]
+    F --> G2[Day 09: Azure Entra + Terraform]
+    F --> G3[Day 05: AWS + Azure Integration]
+    F --> G4[Day 06: Identity Federation]
+    F --> G5[Day 09: Zero Trust Identity]
+```
+
+# 🟦 7. Day 01 Summary
+
+**You now understand:**
 
 IAM fundamentals
 
@@ -163,11 +177,17 @@ IAM threat modeling
 
 Identity architecture language
 
-This foundation is required for:
+
+**This foundation is required for:**
+
 ➡ Day 02 (AWS IAM + Terraform)
+
 ➡ Day 03 (Azure Entra + Terraform)
+
 ➡ Day 05 (AWS ↔ Azure Federation)
+
 ➡ Day 08 (Workload Identity Federation)
+
 ➡ Day 09 (Zero Trust Identity)
 
-🔜 Next: Day 02 — AWS IAM with Terraform
+## 🔜 Next: Day 02 — AWS IAM with Terraform
