@@ -2,8 +2,8 @@
 # 🌍 Multi-Cloud IAM Mastery Bootcamp  
 ### AWS • Azure • GCP • Terraform • Docker • Zero Trust  
 
-> **Instructor:** You  
-> **Student:** Also You 😄  
+> **Instructor:** Olumide Towoju  
+> **Student:** You 😄  
 > **Platform:** Ubuntu 24.04 (WSL2 on Windows)  
 > **GitHub:** https://github.com/olumidetowoju/multi-cloud-iam  
 
