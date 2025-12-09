@@ -28,34 +28,32 @@ Everything here is:
 
 # 🚀 Quick Start
 
-```bash
-cd ~/multi-cloud-iam
-bash install-values-patch.sh
+# 🏗️ Bootcamp Structure (10 Days)
 
-
-✅ This prepares all Terraform value placeholders safely (no secrets committed).
-
-🧾 Your Real Cloud Environment
-Platform	Value
-AWS Account ID	698135531490
-AWS Admin ARN	arn:aws:iam::698135531490:user/olumide-admin
-Azure Tenant ID	53f27eb2-cd38-4ce1-9efe-ec5e28cbf021
-Azure Subscription ID	56d9a9d0-65a3-4aea-9957-ff103f641f9c
-GCP Project ID	project-cbc6aa96-d900-4564-a30
-GCP Project Number	687198112345
-🏗️ Bootcamp Structure (10 Days)
 Day	Topic	Status
+
 ✅ Day 01	IAM Foundations & Threat Model	✅
+
 ✅ Day 02	AWS IAM with Terraform	✅
+
 ✅ Day 03	Azure Entra ID with Terraform	✅
+
 ✅ Day 04	GCP IAM with Terraform	✅
+
 ✅ Day 05	AWS ↔ Azure SAML Federation	🚧
+
 ✅ Day 06	Terraform Remote State & Backends	✅
+
 ✅ Day 07	Docker + IAM Security	✅
+
 ✅ Day 08	Workload Identity Federation	✅
+
 ✅ Day 09	Zero Trust Multi-Cloud Identity	✅
+
 ✅ Day 10	Capstone Multi-Cloud IAM Architecture	✅
-📂 Clickable Daily Labs
+
+# 📂 Clickable Daily Labs
+
 ✅ Day 01 — IAM Foundations
 
 Identity vs Authentication vs Authorization
@@ -92,7 +90,7 @@ Threat Modeling for IAM
 ✔ IAM bindings
 ✔ Least privilege automation
 
-🚧 Day 05 — AWS ↔ Azure Federation (SSO)
+✅ Day 05 — AWS ↔ Azure Federation (SSO)
 
 📁 Open Day 05
 
@@ -146,7 +144,8 @@ Threat Modeling for IAM
 ✔ Terraform Automation
 ✔ Auditable & Secure Design
 
-🔐 Security Rules (Strict)
+
+# 🔐 Security Rules (Strict)
 
 ✅ NO secrets in Git
 ✅ No .terraform/ directories
@@ -159,17 +158,23 @@ Local terraform.tfvars
 
 Secure Vaults only
 
-🎯 Final Outcome
+
+# 🎯 Final Outcome
 
 By completion you will have:
 
 ✅ One identity
+
 ✅ Three clouds
+
 ✅ One trust plane
+
 ✅ Full Terraform automation
+
 ✅ Production-grade Zero-Trust IAM
 
-🧠 Skill Level After This Bootcamp
+
+# 🧠 Skill Level After This Bootcamp
 
 You will be operating at:
 
