@@ -124,8 +124,7 @@ Federation	SAML/OIDC	SAML/OIDC	OIDC Workforce Identity
 This table becomes VERY important in Day 08 and Day 09.
 
 # 🟦 7. Diagram — GCP IAM Flow
-mermaid
-Copy code
+```mermaid
 flowchart LR
     SA[Service Account] -->|Bound To| Role[IAM Role]
     Role -->|Applies To| Resource[GCP Resources]
@@ -134,11 +133,17 @@ flowchart LR
 ```
 
 # 🟪 8. IAM Best Practices for GCP (Enterprise Level)
+
 ✔ Prefer Service Accounts over Users for workloads
+
 ✔ Restrict Service Account key creation
+
 ✔ Use Workload Identity Federation instead of keys (Day 08)
+
 ✔ Use IAM Conditions for least privilege
+
 ✔ Use Cloud Audit Logs to validate IAM behavior
+
 ✔ DO NOT bind Owner or Editor roles except in labs
 
 # 🟦 9. Day 04 Summary
